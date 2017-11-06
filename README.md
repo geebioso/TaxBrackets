@@ -1,6 +1,7 @@
 # Separate Versus Joint Filing
 
-This code computes the difference in taxes for joint filing versus separate filing for a couple. The code produces a surface plot of tax differences for all pairs of salaries from 1K to 200K. 
+This code computes the difference in federal income taxes for joint filing versus separate filing for a couple where each partner has a salary between 1K and 200K. The code makes extremely basic tax assumptions (no dependents, no itemized deductions, no scholarships, no witholdings, no educational expenses, no retirment contributions, not a home owner, not self-employed, no other taxable income). 
 
+The code uses the tax brackets defined on the [tax foundation website](https://taxfoundation.org/2017-tax-brackets/) and takes into account Personal Exemptions, Standard Deductions, and Pease Limitations. The code does not take into account the Alternative Minimum Tax Exemption nor Earned Income Tax Credits. 
 
-![alt text](https://github.com/geebioso/TaxBrackets/blob/master/joint_separate_file_tax_difference_by_salary.png)
+![surface plot of difference in taxes owed for separate filing versus joing filing](https://github.com/geebioso/TaxBrackets/blob/master/joint_separate_file_tax_difference_by_salary.png)
