@@ -10,4 +10,4 @@ The code uses the tax brackets defined on the [tax foundation website](https://t
 
 The function `` computes the net income for a University of California graduate student assuming just basic tax brackets under the current (November 2017) tax brackets and the proposed senate tax brackets. The code assumes that the student is a resident of California. 
 
-![net income now versus under trump tax plan for UC graduate students](https://github.com/geebioso/TaxBrackets/blob/master/income_now_and_with_tax_cut.png)
+![net income now versus under trump tax plan for UC graduate students](https://github.com/geebioso/TaxBrackets/blob/master/income_now_vs_tax_cut.png)

@@ -56,7 +56,7 @@ set(gca, 'XTickLabels', salarynames);
 % legend('Location', 'best', {'Res/Non-Res Now', 'Res Tax Cut', 'Non-Res Tax Cut', 'Poverty Line'}); % , 'Non-Res Tax Cut'}); 
 legend('Location', 'best', {'Res Now', 'Res Tax Cut', 'Poverty Line'}); % , 'Non-Res Tax Cut'}); 
 
-filenm = 'income_now_and_with_tax_cut'; 
+filenm = 'income_now_vs_tax_cut'; 
 print(filenm, '-dpng'); 
 
 
